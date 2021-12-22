@@ -28,9 +28,7 @@ public class addCustomer extends JFrame {
 	Connection con=null;
 	PreparedStatement ps=null;
 	private static final String SET_CUSTOMER_DETAILS="insert into customer_info values(?,?,?,?)";
-	/**
-	 * Launch the application.
-	 */
+
 	public  static void main(String []args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -44,16 +42,10 @@ public class addCustomer extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
 	public addCustomer() {
 		initialize();
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
 	private void initialize() {
 		addCustomer = new JFrame();
 		addCustomer.setBounds(0,0, 1560, 840);

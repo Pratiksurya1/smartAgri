@@ -30,9 +30,7 @@ public class addProduct {
 	Connection con=null;
 	PreparedStatement ps=null;
 	private static final String SET_PRODUCT_DETAILS="INSERT INTO PRODUCT_INFO VALUES (?,?,?,?,?)";
-	/**
-	 * Launch the application.
-	 */
+
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -46,16 +44,10 @@ public class addProduct {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
 	public addProduct() {
 		initialize();
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
 	private void initialize() {
 		addProduct = new JFrame();
 		addProduct.setBounds(0,0, 1560, 840);

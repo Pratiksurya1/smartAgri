@@ -39,9 +39,7 @@ public class EditCustomer {
 	private JLabel lblNewLabel_7;
 	private JLabel lblNewLabel_8;
 	private JLabel lblNewLabel_9;
-	/**
-	 * Launch the application.
-	 */
+
 	public static void main (String []arg) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -55,16 +53,10 @@ public class EditCustomer {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
 	public EditCustomer() {
 		initialize();
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
 	private void initialize() {
 		EditCustomer = new JFrame();
 		EditCustomer.setBounds(0,0, 1560, 840);

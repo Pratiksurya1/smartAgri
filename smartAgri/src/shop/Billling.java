@@ -47,11 +47,7 @@ public class Billling {
 	int Q;
 	int P;
 	int total;
-	
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -65,9 +61,6 @@ public class Billling {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
 	public Billling() {
 		initialize();
 		clock();
@@ -96,9 +89,9 @@ public class Billling {
 			};
 			Clock.start();
 		}
-	/**
-	 * Initialize the contents of the frame.
-	 */
+	
+	 // Initialize the contents of the frame.
+	 
 	private void initialize() {
 		Billing = new JFrame();
 		Billing.setBounds(0,0, 1560, 840);

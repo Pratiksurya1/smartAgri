@@ -31,9 +31,7 @@ public class updateProduct {
 	private JTextField textField_5;
 	private String ppname;
 	private String type;
-	/**
-	 * Launch the application.
-	 */
+
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -47,16 +45,10 @@ public class updateProduct {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
 	public updateProduct() {
 		initialize();
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
 	private void initialize() {
 		updateProduct = new JFrame();
 		updateProduct.setBounds(0,0, 1560, 840);

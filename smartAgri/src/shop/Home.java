@@ -17,9 +17,6 @@ public class Home {
 
 	 JFrame Home;
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -32,17 +29,11 @@ public class Home {
 			}
 		});
 	}
-
-	/**
-	 * Create the application.
-	 */
+	
 	public Home() {
 		initialize();
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
 	private void initialize() {
 		Home = new JFrame();
 		Home.setBounds(0,0, 1560, 840);
